@@ -4,7 +4,6 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
@@ -17,7 +16,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.SwingUtilities;
 
-import org.json.*;
 import org.json.simple.*;
 import org.json.simple.parser.JSONParser;
 
@@ -30,7 +28,6 @@ public class RunStealthGame implements Runnable {
     private int currentLevel;
     private String fullRules;
     private String levelListTxt;
-    private Boolean baseLevels;
     
     // tracks level information
     private HashMap<Integer, HashMap<String, String>> baseLevelDictionary;
@@ -53,7 +50,6 @@ public class RunStealthGame implements Runnable {
         retrieveRules();
         retrieveLevelList();
         currentLevel = 0;
-        baseLevels = true;
         
         // Top-level frame in which game components live.
         final JFrame frame = new JFrame("StealthJava");
@@ -80,7 +76,8 @@ public class RunStealthGame implements Runnable {
         // button is pressed, actionPerformed() will be called.
         final JButton reset = new JButton("Reset");
         reset.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+            @Override
+			public void actionPerformed(ActionEvent e) {
                 gPanel.reset();
             }
         });
@@ -88,14 +85,16 @@ public class RunStealthGame implements Runnable {
         // Creates a button that walks back to the previous level
         final JButton prevLevel = new JButton("Previous Level");
         prevLevel.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+            @Override
+			public void actionPerformed(ActionEvent e) {
                 recedeLevel(gPanel);
             }
         });
         // Creates a button that advances to the next level
         final JButton nextLevel = new JButton("Next Level");
         nextLevel.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+            @Override
+			public void actionPerformed(ActionEvent e) {
                 advanceLevel(gPanel);
             }
         });
@@ -103,7 +102,8 @@ public class RunStealthGame implements Runnable {
         // Creates a button that displays the rules
         final JButton rules = new JButton("Rules");
         rules.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+            @Override
+			public void actionPerformed(ActionEvent e) {
                 // display text in popup - technique taken from
                 // https://stackoverflow.com/questions/7080205/popup-message-boxes
                 JOptionPane.showMessageDialog(null, fullRules, "StealthJava Rules", 
@@ -114,7 +114,8 @@ public class RunStealthGame implements Runnable {
         // Creates a button that displays the level list
         final JButton levelList = new JButton("Level List");
         levelList.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+            @Override
+			public void actionPerformed(ActionEvent e) {
                 // display text in popup
                 JOptionPane.showMessageDialog(null, levelListTxt, "StealthJava Level List", 
                     JOptionPane.INFORMATION_MESSAGE);
@@ -124,7 +125,8 @@ public class RunStealthGame implements Runnable {
         // Creates a button that swaps between expansions
         final JButton expansionButton = new JButton("Swap to Expansion");
         expansionButton.addActionListener(new ActionListener() {
-            public void actionPerformed(ActionEvent e) {
+            @Override
+			public void actionPerformed(ActionEvent e) {
                 // swap level lists
                 currentLevel = 0;
                 if (expansion) {
@@ -310,8 +312,7 @@ public class RunStealthGame implements Runnable {
     }
     
     public static void main(String[] args) {
-        Runnable game = new RunStealthGame(); // Set the game you want to run
-                                                                     // here
+        Runnable game = new RunStealthGame();
         SwingUtilities.invokeLater(game);
     }
 

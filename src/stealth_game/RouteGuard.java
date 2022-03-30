@@ -121,7 +121,8 @@ public class RouteGuard implements Guard {
     /**
      * If the intended move succeeded, advances the iterator for the next call
      */
-    public void moveSucceeded() {
+    @Override
+	public void moveSucceeded() {
         lastMove = getMoveDirection();
         invokeIter(route);
     }
@@ -161,11 +162,13 @@ public class RouteGuard implements Guard {
     /**********************************************************************************
      * SETTER
      **********************************************************************************/
-    public void updateLocation(Point newLoc) {
+    @Override
+	public void updateLocation(Point newLoc) {
         location = newLoc;
     }
     
-    public void setPlayerLocation(Point playerLoc) {
+    @Override
+	public void setPlayerLocation(Point playerLoc) {
     }
     
     /**********************************************************************************

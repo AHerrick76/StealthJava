@@ -82,7 +82,8 @@ public class GamePanel extends JPanel {
         
         // This key listener detects intended player movement by registering keyboard inputs
         addKeyListener(new KeyAdapter() {
-            public void keyPressed(KeyEvent e) {
+            @Override
+			public void keyPressed(KeyEvent e) {
                 if (playing) {
                     if (e.getKeyCode() == KeyEvent.VK_LEFT) {
                         gb.moveObject(player, Direction.LEFT);

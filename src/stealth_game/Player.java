@@ -20,7 +20,8 @@ public class Player implements Movable {
      * 
      * @return Point - current location of player
      */
-    public Point getLocation() {
+    @Override
+	public Point getLocation() {
         return (Point) this.locaction.clone();
     }
     
@@ -29,7 +30,8 @@ public class Player implements Movable {
      * 
      * @param newLoc - new location to assign Player object
      */
-    public void updateLocation(Point newLoc) {
+    @Override
+	public void updateLocation(Point newLoc) {
         locaction = newLoc;
     }
 

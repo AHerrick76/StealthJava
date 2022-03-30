@@ -80,7 +80,8 @@ public class RandomGuard implements Guard {
      *
      * @return intended direction of movement
      */
-    public Direction getMoveDirection() {
+    @Override
+	public Direction getMoveDirection() {
         
         int index = new Random().nextInt(validDirections.size());
         Iterator<Direction> iter = validDirections.iterator();
@@ -94,7 +95,8 @@ public class RandomGuard implements Guard {
     /**
      * If move succeeded, set lastMove to direction of attempted movement and reset validDirections
      */
-    public void moveSucceeded() {
+    @Override
+	public void moveSucceeded() {
         lastMove = attemptedDirection;
         resetValidDirections();
     }
@@ -122,11 +124,13 @@ public class RandomGuard implements Guard {
     /**********************************************************************************
      * SETTER
      **********************************************************************************/
-    public void updateLocation(Point newLoc) {
+    @Override
+	public void updateLocation(Point newLoc) {
         location = newLoc;
     }
     
-    public void setPlayerLocation(Point playerLoc) {
+    @Override
+	public void setPlayerLocation(Point playerLoc) {
     }
     
     /**********************************************************************************

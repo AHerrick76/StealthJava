@@ -183,14 +183,14 @@
 		"expansion": true,
 		"levelIndex": 1
 	},
-	"Robbery": {
-		"filename": "files/Expansion/Level4_Robbery.csv",
-		"tileset": 0,
-		"darkLevel": false,
-		"visionRadius": 6,
+	"Pitch Black": {
+		"filename": "files/Expansion/Level2_PitchBlack.csv",
+		"tileset": 2,
+		"darkLevel": true,
+		"visionRadius": 2,
 		"expansion": true,
 		"levelIndex": 2
-	},
+	},	
 	"Choices": {
 		"filename": "files/Expansion/Level3_Choices.csv",
 		"tileset": 0,
@@ -198,6 +198,14 @@
 		"visionRadius": 6,
 		"expansion": true,
 		"levelIndex": 3
+	},	
+	"Robbery": {
+		"filename": "files/Expansion/Level4_Robbery.csv",
+		"tileset": 0,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": true,
+		"levelIndex": 4
 	},
 	"Key Garden": {
 		"filename": "files/Expansion/Level5_KeyGarden.csv",
@@ -205,23 +213,7 @@
 		"darkLevel": false,
 		"visionRadius": 6,
 		"expansion": true,
-		"levelIndex": 4
-	},
-	"Citadel": {
-		"filename": "files/Expansion/Level9_Citadel.csv",
-		"tileset": 4,
-		"darkLevel": false,
-		"visionRadius": 6,
-		"expansion": true,
 		"levelIndex": 5
-	},
-	"Pitch Black": {
-		"filename": "files/Expansion/Level2_PitchBlack.csv",
-		"tileset": 2,
-		"darkLevel": true,
-		"visionRadius": 2,
-		"expansion": true,
-		"levelIndex": 6
 	},
 	"Dark Spoke": {
 		"filename": "files/Expansion/Level6_DarkSpoke.csv",
@@ -229,7 +221,7 @@
 		"darkLevel": true,
 		"visionRadius": 5,
 		"expansion": true,
-		"levelIndex": 7
+		"levelIndex": 6
 	},
 	"Lockpicking": {
 		"filename": "files/Expansion/Level7_Lockpicking.csv",
@@ -237,7 +229,7 @@
 		"darkLevel": true,
 		"visionRadius": 8,
 		"expansion": true,
-		"levelIndex": 8
+		"levelIndex": 7
 	},
 	"Backtracking": {
 		"filename": "files/Expansion/Level8_Backtracking.csv",
@@ -245,6 +237,14 @@
 		"darkLevel": false,
 		"visionRadius": 8,
 		"expansion": true,
+		"levelIndex": 8
+	},
+	"Citadel": {
+		"filename": "files/Expansion/Level9_Citadel.csv",
+		"tileset": 4,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": true,
 		"levelIndex": 9
-	}
+	}	
 }

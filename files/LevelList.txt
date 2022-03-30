@@ -1,0 +1,30 @@
+Examples:
+0 -> Intro
+1 -> Guard Example
+2 -> HunterExample
+
+Easy
+3 -> Patrol Puzzle
+4 -> Random Room
+5 -> Two Searchlights
+6 -> Thrones
+
+Medium
+7 -> Watchtower
+8 -> PacMan
+9 -> Patrol House
+10 -> Field 1: Patrols
+11 -> Outside Patrol
+
+Hard:
+12 -> Field 2: Hunters
+13 -> Hunter Puzzle
+14 -> Scatter
+15 -> Pursuit Maze
+16 -> PacMan 2
+
+Expert:
+17 -> Restricted Access
+18 -> Groundskeeping
+19 -> Hunter Labyrinth
+20 -> High Security

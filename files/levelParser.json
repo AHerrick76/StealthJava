@@ -1,0 +1,250 @@
+{
+	"Introduction": {
+		"filename": "files/Levels/Level00_Intro.csv",
+		"tileset": 0,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 0
+	}, 
+	"Guard Example": {
+		"filename": "files/Levels/Level01_GuardExample.csv",
+		"tileset": 0,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 1
+	}, 
+	"Hunter Example": {
+		"filename": "files/Levels/Level02_HunterExample.csv",
+		"tileset": 0,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 2
+	}, 
+	"Patrol Puzzle": {
+		"filename": "files/Levels/Level03_PatrolPuzzle.csv",
+		"tileset": 1,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 3
+	}, 
+	"Random Room": {
+		"filename": "files/Levels/Level04_RandomRoom.csv",
+		"tileset": 1,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 4
+	}, 
+	"Two Searchlights": {
+		"filename": "files/Levels/Level05_TwoSearchlights.csv",
+		"tileset": 1,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 5
+	}, 
+	"Thrones": {
+		"filename": "files/Levels/Level06_Thrones.csv",
+		"tileset": 1,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 6
+	}, 
+	"Watchtower": {
+		"filename": "files/Levels/Level07_Watchtower.csv",
+		"tileset": 2,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 7
+	}, 
+	"PacMan": {
+		"filename": "files/Levels/Level08_PacMan.csv",
+		"tileset": 2,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 8
+	}, 
+	"Field 1: Patrols": {
+		"filename": "files/Levels/Level09_Field1_Patrols.csv",
+		"tileset": 2,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 9
+	}, 
+	"Outside Patrol": {
+		"filename": "files/Levels/Level10_OutsidePatrol.csv",
+		"tileset": 2,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 10
+	}, 
+	"Patrol House": {
+		"filename": "files/Levels/Level11_PatrolHouse.csv",
+		"tileset": 2,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 11
+	}, 
+	"Field 2: Hunters": {
+		"filename": "files/Levels/Level12_Field2_Hunters.csv",
+		"tileset": 3,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 12
+	}, 
+	"Hunter Puzzle": {
+		"filename": "files/Levels/Level13_HunterPuzzle.csv",
+		"tileset": 3,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 13
+	}, 
+	"Scatter": {
+		"filename": "files/Levels/Level14_Scatter.csv",
+		"tileset": 3,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 14
+	}, 
+	"Pursuit Maze": {
+		"filename": "files/Levels/Level15_PursuitMaze.csv",
+		"tileset": 3,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 15
+	}, 
+	"PacMan 2": {
+		"filename": "files/Levels/Level16_PacMan2.csv",
+		"tileset": 3,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 16
+	},
+	"Restricted Access": {
+		"filename": "files/Levels/Level17_RestrictedAccess.csv",
+		"tileset": 4,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 17
+	},
+	"Groundskeeping": {
+		"filename": "files/Levels/Level18_Groundskeeping.csv",
+		"tileset": 4,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 18
+	},
+	"Hunter Labyrinth": {
+		"filename": "files/Levels/Level19_HunterLabyrinth.csv",
+		"tileset": 4,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 19
+	},
+	"High Security": {
+		"filename": "files/Levels/Level20_HighSecurity.csv",
+		"tileset": 4,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": false,
+		"levelIndex": 20
+	},
+	"Key Demonstration": {
+		"filename": "files/Expansion/Level0_KeyDemonstration.csv",
+		"tileset": 0,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": true,
+		"levelIndex": 0
+	},
+	"Rotation": {
+		"filename": "files/Expansion/Level4_Rotation.csv",
+		"tileset": 1,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": true,
+		"levelIndex": 1
+	},
+	"Robbery": {
+		"filename": "files/Expansion/Level3_Robbery.csv",
+		"tileset": 0,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": true,
+		"levelIndex": 2
+	},
+	"Choices": {
+		"filename": "files/Expansion/Level5_Choices.csv",
+		"tileset": 0,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": true,
+		"levelIndex": 3
+	},
+	"Key Garden": {
+		"filename": "files/Expansion/Level1_KeyGarden.csv",
+		"tileset": 0,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": true,
+		"levelIndex": 4
+	},
+	"Citadel": {
+		"filename": "files/Expansion/Level2_Citadel.csv",
+		"tileset": 4,
+		"darkLevel": false,
+		"visionRadius": 6,
+		"expansion": true,
+		"levelIndex": 5
+	},
+	"Pitch Black": {
+		"filename": "files/Expansion/Level6_PitchBlack.csv",
+		"tileset": 2,
+		"darkLevel": true,
+		"visionRadius": 2,
+		"expansion": true,
+		"levelIndex": 6
+	},
+	"Dark Spoke": {
+		"filename": "files/Expansion/Level7_DarkSpoke.csv",
+		"tileset": 3,
+		"darkLevel": true,
+		"visionRadius": 5,
+		"expansion": true,
+		"levelIndex": 7
+	},
+	"Lockpicking": {
+		"filename": "files/Expansion/Level8_Lockpicking.csv",
+		"tileset": 3,
+		"darkLevel": true,
+		"visionRadius": 8,
+		"expansion": true,
+		"levelIndex": 8
+	},
+	"Backtracking": {
+		"filename": "files/Expansion/Level9_Backtracking.csv",
+		"tileset": 2,
+		"darkLevel": false,
+		"visionRadius": 8,
+		"expansion": true,
+		"levelIndex": 9
+	}
+}

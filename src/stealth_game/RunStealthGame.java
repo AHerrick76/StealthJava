@@ -15,6 +15,7 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
+import javax.swing.SwingUtilities;
 
 import org.json.*;
 import org.json.simple.*;
@@ -306,6 +307,12 @@ public class RunStealthGame implements Runnable {
         gPanel.setCurrentLevel(filename, currentLevel, darkLevel, visionRadius, tileset);
         
         // update displayed levelName (TODO)
+    }
+    
+    public static void main(String[] args) {
+        Runnable game = new RunStealthGame(); // Set the game you want to run
+                                                                     // here
+        SwingUtilities.invokeLater(game);
     }
 
 }

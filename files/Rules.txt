@@ -1,0 +1,36 @@
+StealthJava is a puzzle game with the goal of collecting a piece of treasure without getting caught by any wandering guards. In each level, the player must
+navigate a board or maze to reach the goal while making sure to avoid any zones of detection. StealthJava consists of 20 levels of escalating difficulty. The 
+first few levels are straightforward, intended to familiarize the player with the basic mechanics, but the puzzles eventually become quite difficult and precise!
+
+The display screen contains a few items of note:
+	- The top of the screen contains 4 buttons, which display the rules, reset the current level, or transition to the next or previous level in the queue.
+	- The bottom of the screen tracks the current turn, and whether the player has won or lost.
+	- The central "grid" shows the field of play. Players (and Guards!) move horizontally or vertically along the grid each turn.
+	- The blue-clad person with a red shield represents the player.
+	- The purple and red altar represents the goal in each level (it may be hidden if a guard is blocking it at first).
+	- The yellow circles indicate the guard's cone of vision. Standing on any yellow circle will spell defeat!
+	- Centaurs, paladins, and imps all represent different types of guards, explained later.
+	- Darkened solid squares represent walls - nothing can move onto or through them. But beware! Guards can see through the walls (they're equipped with X-Ray glasses, say)
+	- The floor tiles (where objects are stand) are typically a brighter or less saturated color, to differentiate them from walls.
+
+To control the player, use the arrow keys on your keyboard to move in each direction. You can also press the spacebar to skip your turn - this is helpful if you need to wait for a guard
+to move out of the way to progress. If your move fails - because there is a guard or wall in the way - the turn won't advance.
+
+Types of guards:
+	- Random Guards - each turn, they move in a random direction, if any unblocked direction exists. These appear as red, many armed imps.
+	- Route or Patrol Guards - each turn, they move along a set patrol, before reversing course. If an object blocks their path, they'll continue along their same patrol
+	as before once the object moves. (You can use this to block their movement, a key strategy in some levels!). These appear as a armor-clad sentinel.
+	- Hunter or Chase Guards - these are the most difficult guard to evade. Each turn, these guards will chase down the player, moving toward the player along the axis
+	of greatest distance. If they can't, they'll move along the second axis instead. Find ways to trap these guards before they get too close -- you can't outrun them!
+	These appear as bow wielding centaurs.
+
+Strategy Tips!
+	- The walls and floor will change when a player encounters a new difficulty tier of levels. Often these changes indicate a new design concept being used, or a new strategy
+	now required to progress!
+	- Players are detect AFTER all guards resolve their movement. It's possible to move onto a "Detected" square and remain uncaught, provided the guard viewing that area moves
+	during its turn. This is very important in some levels!
+	- If you step onto the victory square, you win - if a guard spots you when you reach the goal, it's too late for them to catch you!
+	- Guards can either detect you in a circle around themselves or in an expanding cone pointing toward whichever way they are facing (based on their last move). Be careful
+	to move carefully near guards with long vision cones, they can move unexpectedly!
+	- It is often best to let Hunter guards get close, or at least bunched up, before trying to evade. If they surround you, it's very easy to get cornered.
+	- It may be advantageous to remember certain classic video game trivia or lore :)

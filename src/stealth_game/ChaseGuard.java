@@ -11,7 +11,7 @@ import java.util.HashSet;
  * 
  * Chase guards move directly toward the player, minimizing X or Y distance, depending
  * on which is larger. If no legal move can bring the guard closer to the player, they don't
- * move
+ * move.
  *
  */
 public class ChaseGuard implements Guard {

@@ -1,7 +1,7 @@
 # StealthJava
 A turn-based stealth puzzle game built in Java - easy to learn, difficult to master. The game includes 30 puzzle levels which range from the simple to the extremely complex. 
 
-![](files/Screenshots/sample1.png)
+![](sample1.png)
 
 ## How to Play
 

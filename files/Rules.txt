@@ -27,10 +27,16 @@ Types of guards:
 Strategy Tips!
 	- The walls and floor will change when a player encounters a new difficulty tier of levels. Often these changes indicate a new design concept being used, or a new strategy
 	now required to progress!
-	- Players are detect AFTER all guards resolve their movement. It's possible to move onto a "Detected" square and remain uncaught, provided the guard viewing that area moves
+	- Players are detected AFTER all guards resolve their movement. It's possible to move onto a "Detected" square and remain uncaught, provided the guard viewing that area moves
 	during its turn. This is very important in some levels!
 	- If you step onto the victory square, you win - if a guard spots you when you reach the goal, it's too late for them to catch you!
 	- Guards can either detect you in a circle around themselves or in an expanding cone pointing toward whichever way they are facing (based on their last move). Be careful
 	to move carefully near guards with long vision cones, they can move unexpectedly!
 	- It is often best to let Hunter guards get close, or at least bunched up, before trying to evade. If they surround you, it's very easy to get cornered.
 	- It may be advantageous to remember certain classic video game trivia or lore :)
+
+
+Expansion-Specific Mechanics:
+	- Locked Doors: Colored, impassable squares represent color-coded locked doors. In order to open them, you'll need to find the corresponding key. 
+	- Dark Levels: Some levels only show you the area of the map immediately surrounding your character (you can see through walls though). The guards can see 
+		normally though, so be careful!

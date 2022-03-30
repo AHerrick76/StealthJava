@@ -4,9 +4,11 @@ import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.nio.file.Paths;
 import java.util.*;
 
 import javax.swing.JButton;
@@ -48,7 +50,7 @@ public class RunStealthGame implements Runnable {
         
         // retrieves list of valid levels
         retrieveRules();
-        retrieveLevelList();
+        retrieveLevelList("Levels");
         currentLevel = 0;
         
         // Top-level frame in which game components live.
@@ -117,8 +119,13 @@ public class RunStealthGame implements Runnable {
             @Override
 			public void actionPerformed(ActionEvent e) {
                 // display text in popup
+                if (expansion) {
+                	retrieveLevelList("Expansion");
+                } else {
+                	retrieveLevelList("Levels");
+                }
                 JOptionPane.showMessageDialog(null, levelListTxt, "StealthJava Level List", 
-                    JOptionPane.INFORMATION_MESSAGE);
+                        JOptionPane.INFORMATION_MESSAGE);
             }
         });
         
@@ -217,10 +224,11 @@ public class RunStealthGame implements Runnable {
     /**
      * Loads the LevelList.txt file and parses to a string to be displayed
      */
-    private void retrieveLevelList() {
-        // load contents from Rules.txt, catching any exceptions
+    private void retrieveLevelList(String folder) {
+        // load contents from Level List, catching any exceptions
         try {
-            FileReader fileReader = new FileReader("files/LevelList.txt");
+        	String path = Paths.get("files", folder, "LevelList.txt").toString();
+            FileReader fileReader = new FileReader(path);
             BufferedReader reader = new BufferedReader(fileReader);
             levelListTxt = "";
             String currentLine;

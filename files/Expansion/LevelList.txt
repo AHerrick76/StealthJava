@@ -1,0 +1,19 @@
+Examples:
+0 -> Key Demonstration
+
+Easy:
+1 -> Rotation
+2 -> Pitch Black
+
+Medium
+3 -> Choices
+4 -> Robbery
+
+Hard:
+5 -> Key Garden
+6 -> Dark Spoke
+
+Expert:
+7 -> Lockpicking
+8 -> Backtracking
+9 -> Citadel

@@ -176,7 +176,7 @@
 		"levelIndex": 0
 	},
 	"Rotation": {
-		"filename": "files/Expansion/Level4_Rotation.csv",
+		"filename": "files/Expansion/Level1_Rotation.csv",
 		"tileset": 1,
 		"darkLevel": false,
 		"visionRadius": 6,
@@ -184,7 +184,7 @@
 		"levelIndex": 1
 	},
 	"Robbery": {
-		"filename": "files/Expansion/Level3_Robbery.csv",
+		"filename": "files/Expansion/Level4_Robbery.csv",
 		"tileset": 0,
 		"darkLevel": false,
 		"visionRadius": 6,
@@ -192,7 +192,7 @@
 		"levelIndex": 2
 	},
 	"Choices": {
-		"filename": "files/Expansion/Level5_Choices.csv",
+		"filename": "files/Expansion/Level3_Choices.csv",
 		"tileset": 0,
 		"darkLevel": false,
 		"visionRadius": 6,
@@ -200,7 +200,7 @@
 		"levelIndex": 3
 	},
 	"Key Garden": {
-		"filename": "files/Expansion/Level1_KeyGarden.csv",
+		"filename": "files/Expansion/Level5_KeyGarden.csv",
 		"tileset": 0,
 		"darkLevel": false,
 		"visionRadius": 6,
@@ -208,7 +208,7 @@
 		"levelIndex": 4
 	},
 	"Citadel": {
-		"filename": "files/Expansion/Level2_Citadel.csv",
+		"filename": "files/Expansion/Level9_Citadel.csv",
 		"tileset": 4,
 		"darkLevel": false,
 		"visionRadius": 6,
@@ -216,7 +216,7 @@
 		"levelIndex": 5
 	},
 	"Pitch Black": {
-		"filename": "files/Expansion/Level6_PitchBlack.csv",
+		"filename": "files/Expansion/Level2_PitchBlack.csv",
 		"tileset": 2,
 		"darkLevel": true,
 		"visionRadius": 2,
@@ -224,7 +224,7 @@
 		"levelIndex": 6
 	},
 	"Dark Spoke": {
-		"filename": "files/Expansion/Level7_DarkSpoke.csv",
+		"filename": "files/Expansion/Level6_DarkSpoke.csv",
 		"tileset": 3,
 		"darkLevel": true,
 		"visionRadius": 5,
@@ -232,7 +232,7 @@
 		"levelIndex": 7
 	},
 	"Lockpicking": {
-		"filename": "files/Expansion/Level8_Lockpicking.csv",
+		"filename": "files/Expansion/Level7_Lockpicking.csv",
 		"tileset": 3,
 		"darkLevel": true,
 		"visionRadius": 8,
@@ -240,7 +240,7 @@
 		"levelIndex": 8
 	},
 	"Backtracking": {
-		"filename": "files/Expansion/Level9_Backtracking.csv",
+		"filename": "files/Expansion/Level8_Backtracking.csv",
 		"tileset": 2,
 		"darkLevel": false,
 		"visionRadius": 8,

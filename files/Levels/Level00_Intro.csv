@@ -1,13 +1,5 @@
 E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
-E,E,E,W,W,W,W,E,E,W,W,W,W,W,E,E,W,W,W,W,E,E,E,E,W,E,E,W,W,W,W,E,W,W,W,W,E,E,E,E
-E,E,E,W,E,E,E,E,E,E,E,W,E,E,E,E,W,E,E,E,E,E,E,W,W,E,E,E,E,E,W,E,W,E,E,W,E,E,E,E
-E,E,E,W,E,E,P,E,E,E,E,W,E,E,E,E,W,W,W,W,E,E,E,E,W,E,E,W,W,W,W,E,W,E,E,W,E,E,E,E
-E,E,E,W,E,E,E,E,E,E,E,W,E,E,E,E,E,E,E,W,E,E,E,E,W,E,E,W,E,E,E,E,W,E,E,W,E,E,E,E
-E,E,E,W,E,E,E,E,E,E,E,W,E,E,E,E,E,E,E,W,E,E,E,E,W,E,E,W,E,E,E,E,W,E,E,W,E,E,E,E
-E,E,E,W,W,W,W,E,E,W,W,W,W,W,E,E,W,W,W,W,E,E,E,W,W,W,E,W,W,W,W,E,W,W,W,W,E,E,E,E
-E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
-E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E,E
-E,E,E,W,W,W,W,E,W,W,W,W,W,E,W,W,W,W,W,E,W,W,W,W,E,W,E,E,W,W,W,W,W,E,W,E,E,W,E,E
+E,P,E,W,W,W,W,E,W,W,W,W,W,E,W,W,W,W,W,E,W,W,W,W,E,W,E,E,W,W,W,W,W,E,W,E,E,W,E,E
 E,E,E,W,E,E,E,E,E,E,W,E,E,E,W,E,E,E,E,E,W,E,E,W,E,W,E,E,E,E,W,E,E,E,W,E,E,W,E,E
 E,E,E,W,W,W,W,E,E,E,W,E,E,E,W,W,W,W,W,E,W,W,W,W,E,W,E,E,E,E,W,E,E,E,W,W,W,W,E,E
 E,E,E,E,E,E,W,E,E,E,W,E,E,E,W,E,E,E,E,E,W,E,E,W,E,W,E,E,E,E,W,E,E,E,W,E,E,W,E,E

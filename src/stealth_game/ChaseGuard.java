@@ -80,7 +80,8 @@ public class ChaseGuard implements Guard {
      *
      * @return intended direction of movement
      */
-    public Direction getMoveDirection() {
+    @Override
+	public Direction getMoveDirection() {
         
         // find relative x/y distances between Player/Guard
         int xDistance = (int) (location.getX() - playerLocation.getX());
@@ -123,7 +124,8 @@ public class ChaseGuard implements Guard {
     /**
      * If move succeeded, set lastMove to direction of attempted movement and reset validDirections
      */
-    public void moveSucceeded() {
+    @Override
+	public void moveSucceeded() {
         lastMove = attemptedDirection;
         failCount = 0;
     }
@@ -148,11 +150,13 @@ public class ChaseGuard implements Guard {
     /**********************************************************************************
      * SETTER
      **********************************************************************************/
-    public void updateLocation(Point newLoc) {
+    @Override
+	public void updateLocation(Point newLoc) {
         location = newLoc;
     }
     
-    public void setPlayerLocation(Point playerLoc) {
+    @Override
+	public void setPlayerLocation(Point playerLoc) {
         playerLocation = playerLoc;
     }
     

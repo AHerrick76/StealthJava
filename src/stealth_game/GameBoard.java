@@ -143,7 +143,6 @@ public class GameBoard {
         if (darkLevel) {
             updateVision();
         }
-        
     }
     
     /**
@@ -242,7 +241,6 @@ public class GameBoard {
                     boardArray[kY][kX] = "K";
                 }
             }
-            
             return true;
         } else {
             return false;

@@ -35,7 +35,11 @@ public class RunStealthGame implements Runnable {
     private HashMap<Integer, HashMap<String, String>> baseLevelDictionary;
     private HashMap<Integer, HashMap<String, String>> expansionLevelDictionary;
     
+    // tracks expansion setting
     private Boolean expansion;
+    
+    // tracks Panel (for text modification elsewhere)
+    private JFrame frame;
 
     public RunStealthGame() {
     }
@@ -54,7 +58,7 @@ public class RunStealthGame implements Runnable {
         currentLevel = 0;
         
         // Top-level frame in which game components live.
-        final JFrame frame = new JFrame("StealthJava");
+        this.frame = new JFrame("StealthJava");
         frame.setLocation(300, 300);
         
         // Status panel
@@ -317,6 +321,8 @@ public class RunStealthGame implements Runnable {
         gPanel.setCurrentLevel(filename, currentLevel, darkLevel, visionRadius, tileset);
         
         // update displayed levelName (TODO)
+        String frameTitle = "Stealth Game --" + levelName;
+        frame.setTitle(frameTitle);
     }
     
     public static void main(String[] args) {

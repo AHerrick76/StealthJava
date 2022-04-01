@@ -23,4 +23,4 @@ If you have any questions or feedback about the game, plesae reach out to me via
 
 ## Acknowledgement
 
-Parts of this game were originally developed as an independent final project for a University of Pennsylvania Computer Science course, CIS-120. Development work continued after the class finished.
+Parts of this game were originally developed as an independent final project for a University of Pennsylvania Computer Science course, CIS-120. Development continued after the class finished.

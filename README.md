@@ -17,7 +17,10 @@ To run the game, you will need a current installation of a Java Runtime Environm
 
 ![](files/Screenshots/Sample3.PNG)
 
-## Contact Me:
+## Contact Me
 
 If you have any questions or feedback about the game, plesae reach out to me via [email](mailto:atnherrick@gmail.com?subject=[GitHub]%20Draft%20Elo%20Model), or on Twitter at [@Atnherrick](https://mobile.twitter.com/atnherrick).
 
+## Acknowledgement
+
+Parts of this game were originally developed as an independent final project for a University of Pennsylvania Computer Science course, CIS-120. Development work continued after the class finished.
